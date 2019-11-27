@@ -1,0 +1,22 @@
+[general]
+env : Xtreme_preprod
+
+
+[Xtreme_preprod]
+username : Aps.Bot_pdx@infor.com
+password : 
+url : https://preprod.inforxtreme.com/InforXtremeAPI
+
+
+[Xtreme_prod]
+username : Aps.Bot_pdx@infor.com
+password : 
+url : https://www.inforxtreme.com/InforXtremeAPI
+
+
+[endpoints]
+token : /Token
+update : /StaffUpdateIncident
+create : /StaffAddIncident
+customer : /oCustomer?companyid={}&ProductLine={}
+

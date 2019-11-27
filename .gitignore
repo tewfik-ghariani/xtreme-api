@@ -1,0 +1,10 @@
+xtreme_api/xtremeAPI/config/configuration.ini
+xtreme_api/xtremeAPI/logs
+xtreme_api/venv_xtreme
+
+syntax: glob
+*.log
+*.pyc
+*egg-info
+*.swp
+.idea

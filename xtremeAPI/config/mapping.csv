@@ -1,0 +1,24 @@
+JiraSubcomponent|Customer|Product|ContactEmail|AlternateEmails
+B&N TMS|Barnes & Noble|Infor Retail Transportation Management|jcampbell@bn.com|RGhate@bn.com
+CB MFM|Crate & Barrel Holdings, Inc.|Infor Retail Assortment Planning|lross@crateandbarrel.com|
+CB MFM|Crate & Barrel Holdings, Inc.|Infor Retail Merchandise Financial Planning|lross@crateandbarrel.com|
+CB MDO|Crate & Barrel Holdings, Inc.|Infor Retail Markdown Optimization|lross@crateandbarrel.com|
+CB F&R|Crate & Barrel Holdings, Inc.|Infor Retail Forecast and Replenishment|srosecrans@crateandbarrel.com|
+DW MAP|Direct Wines Ltd|Infor Retail Assortment Planning|darren.barkey@directwines.com|kevin.davis@directwines.com,philip.duly@directwines.com,gpssupport@directwines.com
+DW|Direct Wines Ltd|Infor Retail Offer Planning|darren.barkey@directwines.com|kevin.davis@directwines.com,philip.duly@directwines.com,gpssupport@directwines.com
+HRD MFP|Harrods Ltd.|Infor Retail Merchandise Financial Planning|austin.davidson@harrods.com|asif.baig@harrods.com,Ian.Stoddart@harrods.com,james.qualter@harrods.com
+THD AP|Home Depot U.S.A., Inc|Infor Retail Assortment Planning|MerchIT_AP_Support@homedepot.com|
+KIABI MFP|Bunsha|Infor Retail Merchandise Financial Planning|mfpsupport@kiabi.com|
+KIABI FR|Bunsha|Infor Retail Forecast and Replenishment|frsupport@kiabi.com|
+MVD AM|M.Video|Infor Retail Assortment Planning|Ilya.Kazantsev@mvideo.ru|
+MVD SPPP|M.Video|Infor Retail Item Planning|Ilya.Kazantsev@mvideo.ru|
+MVD TSSF|M.Video|Infor Retail Forecast and Replenishment|Ilya.Kazantsev@mvideo.ru|
+MVD|M.Video|Infor Retail Merchandise Financial Planning|Ilya.Kazantsev@mvideo.ru|
+TRU MFP/IP CA|Toys R Us|Infor Retail Item Planning|dlITMerchAppsSupport@toysrus.com|sumit.roy@toysrus.com
+TRU MFP/IP CA|Toys R Us|Infor Retail Merchandise Financial Planning|dlITMerchAppsSupport@toysrus.com|sumit.roy@toysrus.com
+WAG FM|Walgreen Co.|Infor Retail Forecast and Replenishment|austin.schierer@walgreens.com|akinwunmi.akinlawon@walgreens.com
+WFM AP|Whole Foods Market Services, Inc.|Infor Retail Assortment Planning|prasanna.prasad@wholefoods.com|russell.myers@wholefoods.com, Krishna.Sudhakaran@wholefoods.com, wfmpredictixsupport.assortment@wholefoods.com
+WFM Ordering|Whole Foods Market Services, Inc.|Infor Retail Ordering|wfmpredictixsupport@wholefoods.com|
+WFM Staging|Whole Foods Market Services, Inc.|Infor Retail Assortment Planning|RamKumar.KarumuthuJeganathan@wholefoods.com|
+WFM GPM|Whole Foods Market Services, Inc.|Infor Retail Price Engine|Prasad.Elayaperumal@wholefoods.com|
+

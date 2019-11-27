@@ -1,0 +1,54 @@
+StatusID|StatusName
+1000|New
+1300|Researching
+1450|Awaiting Infor
+1700|Development Research
+1800|Under Review
+1850|On Hold by Customer
+1900|Transfer to ICS
+2530|Awaiting Development
+3300|Awaiting Customer
+3400|Task Scheduled
+3500|Task Pending Scheduling
+3925|Transfer to Infor
+3950|Transfer to Distributor
+4200|Awaiting Partner
+4400|Awaiting Third Party
+4600|Software Change Request
+4650|Transferred to Standard Support
+4661|In Process Consultant
+4662|In Process Support Consultant
+4663|Escalated to Development
+4666|Development Request
+4667|In Training
+4669|Mapping/Questionnaire
+4670|Training Date
+4671|Forwarded to Deal Desk
+4672|Workaround Available
+4673|Extraction / Pre-mapping
+4700|Solution Proposed
+4710|Transfer to Managed Services
+4711|Transfer to Hosting
+4712|In QA
+4716|Under Qualification
+4717|Estimated
+4718|Task in Process
+4719|With Advanced Technical Support
+4720|Task Pending Execution
+4721|Task Execution Completed
+4722|Task Triage - Post Execution
+4724|In Progress
+4725|Transfer
+4726|Reopened
+4727|Waiting on Activation
+4728|Pending ETA
+4729|Pending Deploy
+4733|Return from Partner
+4734|GTN Waiting on Internal
+4735|Task Pending Customer Approval
+4736|DCAA Sent to Supplier
+4737|Ready for Setup
+4738|Terms and Conditions Sent to Supplier
+4739|Profile In-Progress
+4740|Ready for GTN Activation
+4741|Clarification Needed

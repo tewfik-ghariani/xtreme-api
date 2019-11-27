@@ -1,0 +1,88 @@
+ResolutionTypeID|ResolutionName
+106|Acknowledge File Received
+36|AMS - Closed by Customer
+37|AMS - Customization Care
+38|AMS - Customization Update
+39|AMS - Data Corruption
+40|AMS - Duplicate
+41|AMS - New Development
+42|AMS - Not in AMS scope
+35|AMS - Service Delivered
+43|AMS - Standard Update
+55|AMS Functional Question
+62|Bug Filed
+63|Bug Fixed
+64|Bug Logged with Workaround
+22|Cancelled by Customer
+66|Change Request Submitted
+65|Chargeback
+33|Code Change - Customization
+2|Code Change - Existing
+47|Code Change - New
+108|Community Post
+67|Configuration/Setup Update
+13|Customer Care
+69|Customer Notified
+109|Customer Scripts / Processes
+28|Data Corruption
+100|DHL Type 6 - Other
+5|Duplicate
+70|EID Card Issued
+71|Enhancement Released
+3|Enhancement Request
+72|Enhancement Required/Submitted
+29|Environment
+25|Future Development Review
+73|G2 Link Provided
+53|ICS Resource Request Accepted
+54|ICS Resource Request Rejected
+48|Install/Upgrade - Code Change
+15|Install/Upgrade - General
+74|Instruction/Guidance Provided
+11|Insufficient Information
+52|Interface Reset
+107|Invalid
+1|Knowledge - Existing
+49|Knowledge - New
+44|License Key
+75|Map Change
+76|Message File Re-processed / Re-dropped
+77|Message File Resent
+78|Message Repair/New File Received
+79|Migration/New Customer/New User Setup
+32|Modification by Customer
+14|Non Infor Support Issue
+45|Not Entitled
+94|Not Reproducible
+80|Org Profile Updated
+81|Partner contacted to resolve
+82|Performance Issue Resolved
+83|Re-directed to Super User
+110|Refer to Community
+111|Refer to Documentation
+84|Script Update
+85|Self-learning Resource Promoted
+86|Setup Corrected/Updated
+50|Support Admin Services
+31|Support Billable Work
+68|Support Tool Used
+87|Support/Training Documents (Avery) Updated
+51|Training
+88|Training manuals upload (Avery)
+56|Unknown
+89|Unlocked/Reactivated User
+90|Updated User Settings
+91|User Training/Coaching delivered
+92|Utility Script
+98|VOB - Customer not in Widget
+97|VOB - Incomplete/Inaccurate Vendor Info
+103|VOB - Incorrect Roles Assigned
+104|VOB - Milestone Permission Issue
+105|VOB - Private Network Permissions Issue
+101|VOB - Purchase Order(s) not stamped
+102|VOB - Record Filter Issue
+95|VOB - Registration Not Complete
+99|VOB - Vendor Code Not Mapped
+96|VOB - Welcome/Password Reset Email Not Received
+112|Workaround
+93|Workaround Provided
