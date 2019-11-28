@@ -41,7 +41,7 @@ class XtremeAgent:
                               audience="Public"):
         ''' Prepare payload and create the incident
 
-        :param jira_subcomponent: Customer & application using the same syntax as Jira Subcomponent e.g KIABI MFP
+        :param jira_subcomponent: Customer & application using the same syntax as Jira Subcomponent e.g MFP
         :param priority : select the severity of the incident. Default : 4 - Standard
         :param summary: The title of the incident
         :param description: The event note to be written to the incident.
@@ -169,10 +169,10 @@ class XtremeAgent:
 if'__main__'==__name__:
     try:
         xt = XtremeAgent()
-        xt.create_incident("KIABI FR",
-                            summary="FR // Hotfix release 2.2.1",
-                            description='''Hello Kiabi team,
-                            We are creating this ticket to track the work related to the FR hotfix release 2.2.1.
+        xt.create_incident("Customer X",
+                            summary="Quick Maintenance Window",
+                            description='''Hello,
+                            We are creating this ticket to track the work related to the hotfix release.
 
                             Further details about deployment testing and release schedule will be shared as soon as these become available. 
 

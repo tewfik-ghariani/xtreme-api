@@ -3,15 +3,15 @@ env : Xtreme_preprod
 
 
 [Xtreme_preprod]
-username : Aps.Bot_pdx@infor.com
+username : bot@xtreme.com
 password : 
-url : https://preprod.inforxtreme.com/InforXtremeAPI
+url : https://preprod.xtreme.com/XtremeAPI
 
 
 [Xtreme_prod]
-username : Aps.Bot_pdx@infor.com
+username : bot@xtreme.com
 password : 
-url : https://www.inforxtreme.com/InforXtremeAPI
+url : https://www.xtreme.com/XtremeAPI
 
 
 [endpoints]

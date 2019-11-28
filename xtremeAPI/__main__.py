@@ -61,7 +61,7 @@ def create():
     # Optional Arguments
     optional_args = parser.add_argument_group("Optional arguments")
     optional_args.add_argument("--status", "-t", help="Set incident status: [Default] Researching")
-    optional_args.add_argument("--audience", "-a", help="Select visibilty : 'Public'/'Infor Only'/'Infor & Staff Partner'")
+    optional_args.add_argument("--audience", "-a", help="Select visibilty : 'Public'/'Staff'/'Partner'")
 
     args = vars(parser.parse_args())
 

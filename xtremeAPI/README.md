@@ -1,6 +1,6 @@
 # Xtreme API
 
->Wrapper scripts to leverage the Xtreme updateIncidentAPI and StaffAddIncident API.
+> Wrapper scripts to leverage the Xtreme updateIncidentAPI and StaffAddIncident API.
 
 ## Files 
 
@@ -78,18 +78,18 @@ _logs/log\_xtreme\_create.log_
 ```
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : ------- New Xtreme Ticket
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Environment : Xtreme_preprod
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : JiraSubComponent : KIABI MFP
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Contact Email : mfpsupport@kiabi.com
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : JiraSubComponent : MFP
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Contact Email : support@customer3.com
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Severity : 2
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Customer : Bunsha
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Product : Infor Retail Merchandise Financial Planning
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Customer : customer3
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Product : Merchandise Financial Planning
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Incident status : Researching [Default]
-[Thu Apr 18 01:29:40 CET 2019] - [WARNING] : Invalid value of caseAudience. Should be ; Public, Infor Only, Infor & Staff Partner.
+[Thu Apr 18 01:29:40 CET 2019] - [WARNING] : Invalid value of caseAudience. Should be ; Public, Staff, Partner.
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Payload ready
 [Thu Apr 18 01:29:41 CET 2019] - [INFO] : Login successful
 [Thu Apr 18 01:30:10 CET 2019] - [INFO] : Xtreme incident created successfully!
 [Thu Apr 18 01:30:10 CET 2019] - [INFO] : Incident ID : 12917938
-[Thu Apr 18 01:30:10 CET 2019] - [INFO] : Link : https://preprod.inforxtreme.com/espublic/EN/AnswerLinkDotNet/SoHo/Cases/SoHoCaseDetails.aspx?CaseID=12917938
+[Thu Apr 18 01:30:10 CET 2019] - [INFO] : Link : https://preprod.xtreme.com/espublic/EN/AnswerLinkDotNet/SoHo/Cases/SoHoCaseDetails.aspx?CaseID=12917938
 ```
 
 ----
@@ -124,7 +124,7 @@ from xtremeAPI import XtremeAgent as CreateAgent
 
 xt = CreateAgent()                                       <---------- Object Instantiation
 
-xt.create_incident("KIABI FR",                           <--------- - Jira Sub-Component : Mandatory
+xt.create_incident("FR",                                 <--------- - Jira Sub-Component : Mandatory
                    summary="Hotfix release 2.2",                    - summary: Mandatory
                    description="This is the event note",            - description : Mandatory
                    priority=3,                                      - priority : Mandatory
@@ -262,7 +262,7 @@ Set the severity of the incident while creating it. Simply choose the priority n
 _Example_
 
 ```
-xt.create_incident("KIABI MFP",summary="Data surgery",description="This is a Sev1 incident",priority=1)
+xt.create_incident("MFP",summary="Data surgery",description="This is a Sev1 incident",priority=1)
 ```
 
 ---
@@ -270,11 +270,4 @@ xt.create_incident("KIABI MFP",summary="Data surgery",description="This is a Sev
 Author : Tewfik Ghariani
 
 Date : 07 Dec 2018
-
-Hello APS : [Aps Tools -- Xtreme API](https://hello-aps.predictix.com/courses/course-v1:Infor+Infor_Retail005+infor_2017/courseware/dfa16f943e0649f791016fb39e848333/ecc1c1db86c448b1903412d061e84bd9/)
-
-Details ;
-UpdateAPI : [AET-186](https://logicblox-jira.atlassian.net/browse/AET-186)
-CreateAPI : [AET-207](https://logicblox-jira.atlassian.net/browse/AET-207)
-
 

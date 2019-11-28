@@ -76,18 +76,18 @@ _xtremeAPI/logs/log\_xtreme\_create.log_
 ```
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : ------- New Xtreme Ticket
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Environment : Xtreme_preprod
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : JiraSubComponent : KIABI MFP
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Contact Email : mfpsupport@kiabi.com
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : JiraSubComponent : MFP
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Contact Email : support@customer3.com
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Severity : 2
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Customer : Bunsha
-[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Product : Infor Retail Merchandise Financial Planning
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Customer : customer3
+[Thu Apr 18 01:29:40 CET 2019] - [INFO] : Product : Merchandise Financial Planning
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Incident status : Researching [Default]
-[Thu Apr 18 01:29:40 CET 2019] - [WARNING] : Invalid value of caseAudience. Should be ; Public, Infor Only, Infor & Staff Partner.
+[Thu Apr 18 01:29:40 CET 2019] - [WARNING] : Invalid value of caseAudience. Should be ; Public, Staff, Partner.
 [Thu Apr 18 01:29:40 CET 2019] - [INFO] : Payload ready
 [Thu Apr 18 01:29:41 CET 2019] - [INFO] : Login successful
 [Thu Apr 18 01:30:10 CET 2019] - [INFO] : Xtreme incident created successfully!
 [Thu Apr 18 01:30:10 CET 2019] - [INFO] : Incident ID : 12917938
-[Thu Apr 18 01:30:10 CET 2019] - [INFO] : Link : https://preprod.inforxtreme.com/espublic/EN/AnswerLinkDotNet/SoHo/Cases/SoHoCaseDetails.aspx?CaseID=12917938
+[Thu Apr 18 01:30:10 CET 2019] - [INFO] : Link : https://preprod.xtreme.com/espublic/EN/AnswerLinkDotNet/SoHo/Cases/SoHoCaseDetails.aspx?CaseID=12917938
 ```
 
 ----
@@ -150,7 +150,7 @@ xtremeCreate --app "JIRA-SUB-COMPONENT" --summary "HELLO WORLD" --priority X --d
 _Example_
 
 ```
-$ xtremeCreate --app  "KIABI MFP" --summary "Creating via CLI" --priority 2 --description "Hey
+$ xtremeCreate --app  "MFP" --summary "Creating via CLI" --priority 2 --description "Hey
 > This is really cool
 >
 > Bye"
@@ -178,8 +178,7 @@ Optional arguments:
   --status STATUS, -t STATUS
                         Set incident status: [Default] New
   --audience AUDIENCE, -a AUDIENCE
-                        Select visibilty : 'Public'/'Infor Only'/'Infor &
-                        Staff Partner'
+                        Select visibilty : 'Public'/'Staff'/'Partner'
 
 Created with love by the Efficiency super team ♥
 
@@ -198,10 +197,4 @@ bash install.sh
 Author : Tewfik Ghariani
 
 Date : 05 Jan 2019
-
-Hello APS : [Aps Tools -- Xtreme API](https://hello-aps.predictix.com/courses/course-v1:Infor+Infor_Retail005+infor_2017/courseware/dfa16f943e0649f791016fb39e848333/ecc1c1db86c448b1903412d061e84bd9/)
-
-Details ;
-UpdateCLI : [AET-194](https://logicblox-jira.atlassian.net/browse/AET-194)
-CreateCLI : [AET-242](https://logicblox-jira.atlassian.net/browse/AET-242)
 

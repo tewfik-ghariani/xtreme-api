@@ -1,7 +1,7 @@
 StatusID|StatusName
 1000|New
 1300|Researching
-1450|Awaiting Infor
+1450|Awaiting Vendor
 1700|Development Research
 1800|Under Review
 1850|On Hold by Customer
@@ -10,7 +10,7 @@ StatusID|StatusName
 3300|Awaiting Customer
 3400|Task Scheduled
 3500|Task Pending Scheduling
-3925|Transfer to Infor
+3925|Transfer to Vendor
 3950|Transfer to Distributor
 4200|Awaiting Partner
 4400|Awaiting Third Party
