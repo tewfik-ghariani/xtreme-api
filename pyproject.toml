@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "xtreme-api"
+version = "2.1.0"
+description = "Xtreme portal API and CLI"
+authors = ["Tewfik Ghariani <ghariani.tewfik@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+configparser = "^5.1.0"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+#pytest = "^6.2.5"
+black="^21.10*"
+
+[tool.poetry.scripts]
+xtremeCreate = "xtremeAPI.__main__:create"
+xtremeUpdate = "xtremeAPI.__main__:update"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
